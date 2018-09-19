@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><persistence xmlns="http://java.sun.com/xml/ns/persistence" version="1.0">
+<persistence-unit name="JeeMySqlDS">
+  <description>example of enabling the second level cache.</description>
+  <jta-data-source>JeeMySqlDS</jta-data-source>
+
+  <properties>
+    <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
+  </properties>
+</persistence-unit>
+</persistence>
